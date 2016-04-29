@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "PrimeBrain.h"
 
 @interface ViewController ()
+
 
 @end
 
@@ -16,7 +18,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor colorWithRed:63.0f/255.0f green:40.0f/255.0f blue:96.0f/255.0f alpha:1.0f];
+    self.title = @"In Our Prime";
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

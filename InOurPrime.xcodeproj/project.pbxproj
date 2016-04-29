@@ -13,6 +13,8 @@
 		8CF4CFEA1CD3E0A800E992FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF4CFE81CD3E0A800E992FA /* Main.storyboard */; };
 		8CF4CFEC1CD3E0A800E992FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CF4CFEB1CD3E0A800E992FA /* Assets.xcassets */; };
 		8CF4CFEF1CD3E0A800E992FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF4CFED1CD3E0A800E992FA /* LaunchScreen.storyboard */; };
+		8CF4CFF81CD3E21F00E992FA /* PrimeBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF4CFF71CD3E21F00E992FA /* PrimeBrain.m */; };
+		8CF4CFFB1CD3EE1600E992FA /* PopUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF4CFFA1CD3EE1600E992FA /* PopUpViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		8CF4CFEB1CD3E0A800E992FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CF4CFEE1CD3E0A800E992FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CF4CFF01CD3E0A800E992FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CF4CFF61CD3E21F00E992FA /* PrimeBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimeBrain.h; sourceTree = "<group>"; };
+		8CF4CFF71CD3E21F00E992FA /* PrimeBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimeBrain.m; sourceTree = "<group>"; };
+		8CF4CFF91CD3EE1600E992FA /* PopUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopUpViewController.h; sourceTree = "<group>"; };
+		8CF4CFFA1CD3EE1600E992FA /* PopUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopUpViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +68,11 @@
 				8CF4CFE31CD3E0A800E992FA /* AppDelegate.m */,
 				8CF4CFE51CD3E0A800E992FA /* ViewController.h */,
 				8CF4CFE61CD3E0A800E992FA /* ViewController.m */,
+				8CF4CFF61CD3E21F00E992FA /* PrimeBrain.h */,
+				8CF4CFF71CD3E21F00E992FA /* PrimeBrain.m */,
 				8CF4CFE81CD3E0A800E992FA /* Main.storyboard */,
+				8CF4CFF91CD3EE1600E992FA /* PopUpViewController.h */,
+				8CF4CFFA1CD3EE1600E992FA /* PopUpViewController.m */,
 				8CF4CFEB1CD3E0A800E992FA /* Assets.xcassets */,
 				8CF4CFED1CD3E0A800E992FA /* LaunchScreen.storyboard */,
 				8CF4CFF01CD3E0A800E992FA /* Info.plist */,
@@ -150,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CF4CFF81CD3E21F00E992FA /* PrimeBrain.m in Sources */,
 				8CF4CFE71CD3E0A800E992FA /* ViewController.m in Sources */,
 				8CF4CFE41CD3E0A800E992FA /* AppDelegate.m in Sources */,
+				8CF4CFFB1CD3EE1600E992FA /* PopUpViewController.m in Sources */,
 				8CF4CFE11CD3E0A800E992FA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

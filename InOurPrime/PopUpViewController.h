@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PopUpViewController.h
 //  InOurPrime
 //
 //  Created by Nick Perkins on 4/29/16.
@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface PopUpViewController : UIViewController
 
-@property (weak, nonatomic) UIButton *numberOne;
 
 @end
-
