@@ -12,6 +12,9 @@
 @interface PopUpViewController () <UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *getNumberTextField;
+@property (weak, nonatomic) IBOutlet UIButton *doneButton;
+
+-(void)saveText;
 @end
 
 @implementation PopUpViewController
@@ -19,14 +22,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor colorWithRed:239.0f/255.0f green:109.0f/255.0f blue:59.0f/255.0f alpha:1.0f];
+    self.view.backgroundColor = [UIColor colorWithRed:250.0f/255.0f green:139.0f/255.0f blue:96.0f/255.0f alpha:1.0f];
+    self.getNumberTextField.backgroundColor = [UIColor colorWithRed:250.0f/255.0f green:139.0f/255.0f blue:96.0f/255.0f alpha:1.0f];
+    self.getNumberTextField.textColor = [UIColor colorWithRed:239.0f/255.0f green:109.0f/255.0f blue:59.0f/255.0f alpha:1.0f];
     [self.getNumberTextField becomeFirstResponder];
     
     
-    if (self.getNumberTextField.text) {
-        //do something
-        
-    }
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -43,5 +45,12 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+-(void) saveText{
+    
+    //Send the text to the textField in first ViewController
+    
+    
+}
 
 @end

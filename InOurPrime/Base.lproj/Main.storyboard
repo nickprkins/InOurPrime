@@ -82,23 +82,31 @@
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="85L-GF-mHD">
                                 <rect key="frame" x="200" y="225" width="200" height="150"/>
-                                <color key="backgroundColor" red="0.9137254901960784" green="0.46274509803921571" blue="0.29803921568627451" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="Pr4-GX-z10"/>
                                     <constraint firstAttribute="height" constant="150" id="dQM-Xv-ivk"/>
                                 </constraints>
-                                <color key="textColor" red="0.80392156862745101" green="0.29411764705882354" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="160"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad" enablesReturnKeyAutomatically="YES"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KvP-F0-wHm">
+                                <rect key="frame" x="282" y="407" width="37" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="2R9-PU-FEk"/>
+                                </constraints>
+                                <state key="normal" title="Done"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="KvP-F0-wHm" firstAttribute="top" secondItem="85L-GF-mHD" secondAttribute="bottom" constant="32" id="1ww-hU-Zf4"/>
                             <constraint firstItem="85L-GF-mHD" firstAttribute="centerX" secondItem="r2t-kh-452" secondAttribute="centerX" id="G8t-S4-RJW"/>
+                            <constraint firstItem="KvP-F0-wHm" firstAttribute="centerX" secondItem="r2t-kh-452" secondAttribute="centerX" id="hsv-iQ-Mr3"/>
                             <constraint firstItem="85L-GF-mHD" firstAttribute="centerY" secondItem="r2t-kh-452" secondAttribute="centerY" id="qXs-Rd-lBF"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="doneButton" destination="KvP-F0-wHm" id="kss-KP-cxe"/>
                         <outlet property="getNumberTextField" destination="85L-GF-mHD" id="kwm-33-0Bp"/>
                     </connections>
                 </viewController>
