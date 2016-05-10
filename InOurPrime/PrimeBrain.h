@@ -10,4 +10,6 @@
 
 @interface PrimeBrain : NSObject
 
+-(NSArray*)isItPrime:(int)aNumber;
+
 @end
